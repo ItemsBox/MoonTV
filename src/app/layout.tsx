@@ -18,7 +18,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
   return {
     title: config.SiteConfig.SiteName,
-    description: '影视聚合',
+    description: config.SiteConfig.SiteDescription,
     manifest: '/manifest.json',
   };
 }

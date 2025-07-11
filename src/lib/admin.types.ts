@@ -1,6 +1,7 @@
 export interface AdminConfig {
   SiteConfig: {
     SiteName: string;
+    SiteDescription: string;
     Announcement: string;
     SearchDownstreamMaxPage: number;
     SiteInterfaceCacheTime: number;
